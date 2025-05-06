@@ -1,0 +1,63 @@
+.inventory-table {
+    padding: 40px;
+    background: #000000;
+    color: #fff;
+}
+
+.inventory-table h3 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px;
+    background-color: #111111;
+    border-radius: 8px;
+    color: #666666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #111111;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+    background: #000000;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.delete-btn {
+    padding: 8px 16px;
+    background: transparent;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background: #ff4d4d;
+    color: #000;
+} 

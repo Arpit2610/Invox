@@ -1,0 +1,222 @@
+/* src/InvoiceGenerator.css */
+.invoice-generator {
+    padding: 30px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.invoice-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #111111;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.invoice-form h3 {
+    margin: 0 0 30px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px;
+    background-color: #111111;
+    border-radius: 8px;
+    color: #666666;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 16px;
+}
+
+.cart-items {
+    background: #111111;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cart-items h3 {
+    color: #666666;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.empty-cart {
+    color: #666666;
+    text-align: center;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #000000;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.item-name {
+    color: #ffffff;
+    flex: 1;
+}
+
+.item-quantity {
+    color: #666666;
+    margin: 0 20px;
+}
+
+.item-price {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.invoice-summary {
+    background: #111111;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.total span:first-child {
+    color: #666666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.total span:last-child {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 15px;
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.generate-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+}
+
+.generate-btn:disabled {
+    background: #333333;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.user-info {
+    background: #111111;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.user-info h3 {
+    color: #666666;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.user-info p {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.item-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.quantity-input {
+    width: 60px;
+    padding: 5px;
+    background: #111111;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.remove-item-btn {
+    background: none;
+    border: none;
+    color: #ff3b30;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.remove-item-btn:hover {
+    transform: scale(1.1);
+}
+
+.payment-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.payment-btn:hover {
+    background-color: #45a049;
+}
+
+.payment-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.paypal-button-container {
+    margin-top: 20px;
+    width: 100%;
+}

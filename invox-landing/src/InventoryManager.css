@@ -1,0 +1,132 @@
+.inventory-manager {
+    padding: 40px;
+    background: #000000;
+    color: #fff;
+}
+
+.category-filter {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-btn {
+    padding: 12px 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.category-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.category-btn.active {
+    background: #fff;
+    color: #000;
+}
+
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.inventory-card {
+    background: #111111;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.inventory-card:hover {
+    transform: translateY(-5px);
+}
+
+.item-details h3 {
+    margin: 0 0 20px 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.category {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.stock {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.add-to-cart-btn {
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.add-to-cart-btn:disabled {
+    background: #333;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: not-allowed;
+}
+
+.inventory-card h3 {
+    margin: 0 0 20px 0;
+    color: #666666;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px;
+    background-color: #111111;
+    border-radius: 8px;
+}
+
+.add-to-cart-btn.in-cart {
+    background-color: #34c759;
+    cursor: default;
+}
+
+.add-to-cart-btn svg {
+    margin-right: 8px;
+}

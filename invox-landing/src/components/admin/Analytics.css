@@ -1,0 +1,203 @@
+.analytics-container {
+    padding: 24px;
+    background: #141414;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.analytics-title {
+    color: #ffffff;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.stats-row {
+    margin-bottom: 24px;
+}
+
+/* Card Styles */
+.ant-card {
+    background: #1f1f1f !important;
+    border: 1px solid #303030 !important;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.ant-card-head {
+    background: #141414 !important;
+    border-bottom: 1px solid #303030 !important;
+}
+
+.ant-card-head-title {
+    color: #ffffff !important;
+}
+
+/* Statistics Styles */
+.ant-statistic-title {
+    color: #999999 !important;
+}
+
+.ant-statistic-content {
+    color: #ffffff !important;
+}
+
+/* Chart Container */
+.chart-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 0;
+    padding: 16px;
+    background: #1f1f1f;
+}
+
+/* Card containing charts */
+.ant-card.chart-card {
+    height: 500px;
+    margin-bottom: 24px;
+    background: #1f1f1f !important;
+}
+
+.ant-card.chart-card .ant-card-body {
+    height: calc(100% - 58px);
+    padding: 0 !important;
+    background: #1f1f1f !important;
+}
+
+/* Table Container Styles */
+.table-container {
+    overflow-x: auto;
+    background: #1f1f1f;
+    border-radius: 8px;
+    min-height: 400px;
+    width: 100%;
+}
+
+/* Table Styles */
+.ant-table {
+    background: transparent !important;
+}
+
+.ant-table-wrapper {
+    margin: 0;
+    padding: 0;
+    background: #1f1f1f !important;
+}
+
+.ant-table-thead > tr > th {
+    background: #141414 !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid #303030 !important;
+    padding: 16px !important;
+    font-size: 14px !important;
+}
+
+.ant-table-tbody > tr > td {
+    background: #1f1f1f !important;
+    border-bottom: 1px solid #303030 !important;
+    color: #ffffff !important;
+    padding: 12px 16px !important;
+    font-size: 14px !important;
+}
+
+/* Adjust table row height */
+.ant-table-tbody > tr {
+    height: 60px !important;
+}
+
+/* Pagination Styles */
+.ant-pagination {
+    margin: 16px !important;
+    padding: 16px !important;
+    background: #1f1f1f;
+    border-top: 1px solid #303030;
+}
+
+.ant-pagination-item {
+    background: #1f1f1f !important;
+    border-color: #303030 !important;
+}
+
+.ant-pagination-item a {
+    color: #ffffff !important;
+}
+
+.ant-pagination-item-active {
+    border-color: #1890ff !important;
+    background: #1890ff !important;
+}
+
+.ant-pagination-item-active a {
+    color: #ffffff !important;
+}
+
+.ant-pagination-prev button,
+.ant-pagination-next button {
+    background: #1f1f1f !important;
+    color: #ffffff !important;
+}
+
+.ant-pagination-total-text {
+    color: #ffffff !important;
+}
+
+/* Recent Invoices Card */
+.recent-invoices {
+    margin-top: 24px;
+    background: #1f1f1f !important;
+    width: 100%;
+    border: 1px solid #303030;
+    border-radius: 8px;
+}
+
+.recent-invoices .ant-card-body {
+    padding: 0 !important;
+    min-height: 400px;
+    background: #1f1f1f !important;
+}
+
+/* Fix for chart canvas */
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Row spacing */
+.ant-row {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+/* Column spacing */
+.ant-col {
+    margin-bottom: 24px;
+}
+
+/* Fix for table background */
+.ant-table-container {
+    background: #1f1f1f !important;
+}
+
+.ant-table-content {
+    background: #1f1f1f !important;
+}
+
+/* Fix for scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #303030;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+} 

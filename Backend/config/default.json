@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://arshdeepsingh1318:ZQPHYTEMwAw3jhJz@classproject.mqitx.mongodb.net/invox?retryWrites=true&w=majority",
+    "jwtSecret": "your_jwt_secret"
+} 

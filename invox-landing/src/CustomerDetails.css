@@ -1,0 +1,118 @@
+/* CustomerDetails.css */
+
+.customer-details-container {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background: #000000;
+    color: #fff;
+}
+
+.customer-form-section {
+    padding: 40px;
+    background: #111111;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.customer-form-section h3 {
+    margin: 0 0 30px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px;
+    background-color: #111111;
+    border-radius: 8px;
+    color: #666666;
+}
+
+.customer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.submit-button {
+    padding: 15px;
+    background: #fff;
+    color: #000;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.customers-list-section {
+    padding: 40px;
+    background: #111111;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.customers-list-section h3 {
+    margin: 0 0 30px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px;
+    background-color: #111111;
+    border-radius: 8px;
+    color: #666666;
+}
+
+.customers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.customer-card {
+    padding: 20px;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.customer-card h4 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.customer-card p {
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}

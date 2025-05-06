@@ -1,0 +1,119 @@
+.generate-invoice-btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.generate-invoice-btn:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+.generate-invoice-btn:disabled {
+    background: #666;
+    cursor: not-allowed;
+}
+
+.invoice-generator {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.invoice-form-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.customer-details {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.customer-details h3 {
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Make form items more visible */
+.customer-details .ant-form-item {
+    margin-bottom: 16px;
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #e8e8e8;
+}
+
+.customer-details .ant-form-item-label {
+    padding: 0 0 8px;
+}
+
+.customer-details .ant-form-item-label > label {
+    color: #333;
+    font-weight: 500;
+}
+
+.customer-details .ant-input,
+.customer-details .ant-input-textarea {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.customer-details .ant-input:focus,
+.customer-details .ant-input-textarea:focus {
+    border-color: #40a9ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+/* Cart items section */
+.cart-items {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Additional details section */
+.additional-details {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Invoice summary section */
+.invoice-summary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.generate-btn {
+    min-width: 150px;
+} 

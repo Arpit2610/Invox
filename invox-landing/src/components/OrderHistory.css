@@ -1,0 +1,18 @@
+.order-history {
+    padding: 20px;
+}
+
+.order-items {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.order-items h4 {
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.ant-table-expanded-row .ant-table {
+    margin: 0;
+    background: white;
+} 

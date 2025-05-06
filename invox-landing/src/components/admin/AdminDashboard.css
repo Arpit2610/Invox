@@ -1,0 +1,186 @@
+.admin-dashboard {
+    padding: 0;
+    background: #1a1a1a;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #2c2c2c;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-header h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.stats-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 20px 0;
+    padding: 0 30px;
+    overflow-x: auto;
+}
+
+.ant-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    background: #2c2c2c;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 160px;
+    position: relative;
+    min-width: 280px;
+}
+
+.ant-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ant-card-body {
+    padding: 30px !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ant-statistic {
+    text-align: center;
+}
+
+.ant-statistic-title {
+    color: #a0a0a0;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.ant-statistic-content {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.ant-statistic-content-prefix {
+    margin-right: 8px;
+    color: #4a90e2;
+    font-size: 24px;
+}
+
+.recent-users {
+    background: #2c2c2c;
+    padding: 24px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.recent-users h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ant-table {
+    background: #2c2c2c;
+    color: #ffffff;
+}
+
+.ant-table-thead > tr > th {
+    background: #3a3a3a !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    padding: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ant-table-tbody > tr > td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    padding: 16px;
+}
+
+.ant-table-tbody > tr:hover > td {
+    background: #3a3a3a !important;
+}
+
+.ant-tag {
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-weight: 500;
+}
+
+.ant-picker {
+    background: #3a3a3a;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    height: 40px;
+}
+
+.ant-picker:hover, .ant-picker:focus {
+    border-color: #4a90e2;
+}
+
+.ant-picker input {
+    color: #ffffff;
+}
+
+.admin-content {
+    background: #1a1a1a;
+    min-height: calc(100vh - 64px);
+    padding: 30px;
+    margin-left: 280px;
+}
+
+/* Additional dark theme overrides for Ant Design components */
+.ant-table-placeholder {
+    background: #2c2c2c;
+}
+
+.ant-empty-description {
+    color: #a0a0a0;
+}
+
+.ant-pagination-item {
+    background: #3a3a3a;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.ant-pagination-item a {
+    color: #ffffff;
+}
+
+.ant-pagination-item-active {
+    background: #4a90e2;
+    border-color: #4a90e2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1600px) {
+    .stats-cards {
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-cards {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+    
+    .ant-card {
+        width: 100%;
+    }
+} 
